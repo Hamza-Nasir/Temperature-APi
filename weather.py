@@ -11,7 +11,7 @@ city = input()
 # print("Enter the country in which City is located: ")
 # country = input()
 
-key = "dcaf0d7f17e32a1e0167316d3b5cdbda"
+key = SECRET_KEY
 
 url=f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}"
 
